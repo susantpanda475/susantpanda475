@@ -1,0 +1,466 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susant Kumar Panda | Network Engineer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #edf1f5;
+            color: #263445;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            background: white;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+        }
+
+        header {
+            background: #102a43;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 34px;
+            letter-spacing: 1px;
+        }
+
+        header h3 {
+            color: #70c1ff;
+            margin: 8px 0 20px;
+            letter-spacing: 2px;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px 22px;
+            font-size: 14px;
+        }
+
+        a {
+            color: #1769aa;
+            text-decoration: none;
+        }
+
+        .contact a {
+            color: white;
+            overflow-wrap: anywhere;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 35px 40px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #102a43;
+            font-size: 20px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #1769aa;
+            padding-bottom: 7px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+        }
+
+        .skill {
+            background: #f3f7fb;
+            border-left: 4px solid #1769aa;
+            padding: 12px 15px;
+            overflow-wrap: anywhere;
+        }
+
+        .skill strong {
+            display: block;
+            color: #102a43;
+            margin-bottom: 4px;
+        }
+
+        .job-title {
+            font-size: 17px;
+            font-weight: bold;
+            color: #102a43;
+        }
+
+        .date {
+            color: #607080;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            margin-bottom: 7px;
+        }
+
+        .education {
+            margin-bottom: 15px;
+        }
+
+        .buttons {
+            max-width: 1000px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        button {
+            background: #1769aa;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 15px;
+            margin: 5px;
+        }
+
+        button:hover {
+            background: #102a43;
+        }
+
+        footer {
+            background: #102a43;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 650px) {
+            .container {
+                margin: 0;
+            }
+
+            header {
+                padding: 28px 18px;
+            }
+
+            header h1 {
+                font-size: 27px;
+            }
+
+            main {
+                padding: 25px 20px;
+            }
+
+            .skills {
+                grid-template-columns: 1fr;
+            }
+
+            .contact {
+                flex-direction: column;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+
+            .container {
+                margin: 0;
+                box-shadow: none;
+            }
+
+            .buttons {
+                display: none;
+            }
+
+            header, footer {
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="buttons">
+        <button onclick="window.print()">Print / Save as PDF</button>
+    </div>
+
+    <div class="container">
+
+        <header>
+            <h1>SUSANT KUMAR PANDA</h1>
+            <h3>NETWORK ENGINEER</h3>
+
+            <div class="contact">
+                <span>☎ <a href="tel:+916380544207">
+                    +91 6380544207
+                </a></span>
+
+                <span>✉ <a href="mailto:SUSANTPANDA475@GMAIL.COM">
+                    SUSANTPANDA475@GMAIL.COM
+                </a></span>
+
+                <span>in <a
+                    href="https://www.linkedin.com/in/susant-kumar-panda-80a285297"
+                    target="_blank" rel="noopener noreferrer">
+                    LinkedIn Profile
+                </a></span>
+
+                <span>⌘ <a
+                    href="https://github.com/SUSANTPANDA475"
+                    target="_blank" rel="noopener noreferrer">
+                    GitHub Profile
+                </a></span>
+            </div>
+        </header>
+
+        <main>
+
+            <section>
+                <h2>Professional Summary</h2>
+
+                <p>
+                    Network Engineer with 2 years of experience in network
+                    monitoring, troubleshooting, configuration, and maintenance
+                    of enterprise network infrastructure. Hands-on experience
+                    with Cisco networking, LAN/WAN, VLANs, routing and
+                    switching, TCP/IP, DHCP, DNS, VPN, and network
+                    troubleshooting. Experienced in monitoring network
+                    performance, resolving incidents, coordinating with service
+                    providers, and maintaining network availability and security.
+                    Strong understanding of OSI/TCP-IP models and routing
+                    protocols with a focus on timely incident resolution and
+                    network stability.
+                </p>
+            </section>
+
+            <section>
+                <h2>Technical Skills</h2>
+
+                <div class="skills">
+
+                    <div class="skill">
+                        <strong>Networking</strong>
+                        LAN, WAN, TCP/IP, OSI Model, Ethernet, ARP, ICMP
+                    </div>
+
+                    <div class="skill">
+                        <strong>Routing</strong>
+                        Static Routing, Default Routing, OSPF, RIP, EIGRP, BGP
+                    </div>
+
+                    <div class="skill">
+                        <strong>Switching</strong>
+                        VLAN, Trunking, STP, Port Security, EtherChannel
+                    </div>
+
+                    <div class="skill">
+                        <strong>Cisco</strong>
+                        Cisco Routers, Cisco Switches, IOS
+                    </div>
+
+                    <div class="skill">
+                        <strong>Network Services</strong>
+                        DHCP, DNS, NAT, NTP
+                    </div>
+
+                    <div class="skill">
+                        <strong>VPN</strong>
+                        Site-to-Site VPN, Remote Access VPN
+                    </div>
+
+                    <div class="skill">
+                        <strong>Security</strong>
+                        Firewall Basics, ACL, Network Security Fundamentals
+                    </div>
+
+                    <div class="skill">
+                        <strong>Troubleshooting</strong>
+                        Ping, Traceroute, Telnet/SSH, IP Addressing,
+                        Connectivity Troubleshooting
+                    </div>
+
+                    <div class="skill">
+                        <strong>Monitoring</strong>
+                        PRTG Network Monitor
+                    </div>
+
+                    <div class="skill">
+                        <strong>Ticketing & Tools</strong>
+                        Jira, PuTTY, Microsoft Office
+                    </div>
+
+                </div>
+            </section>
+
+            <section>
+                <h2>Professional Experience</h2>
+
+                <div class="job-title">
+                    Network Engineer — Modern Crow Technology Pvt. Ltd.
+                </div>
+
+                <div class="date">December 2024 – December 2026</div>
+
+                <ul>
+                    <li>
+                        Monitored and maintained enterprise LAN/WAN
+                        infrastructure to ensure high availability and
+                        reliable connectivity.
+                    </li>
+                    <li>
+                        Configured and troubleshot Cisco routers and switches
+                        based on business and network requirements.
+                    </li>
+                    <li>
+                        Managed VLANs, trunk ports, access ports, STP,
+                        and port-security configurations.
+                    </li>
+                    <li>
+                        Configured and troubleshot static routes and
+                        OSPF routing.
+                    </li>
+                    <li>
+                        Performed network troubleshooting using Ping,
+                        Traceroute, ARP, SSH, and Telnet.
+                    </li>
+                    <li>
+                        Troubleshot LAN/WAN connectivity, packet loss,
+                        latency, DNS, DHCP, and IP-addressing issues.
+                    </li>
+                    <li>
+                        Monitored network devices and responded to alerts
+                        and incidents within defined SLA requirements.
+                    </li>
+                    <li>
+                        Assisted with site-to-site and remote-access
+                        VPN troubleshooting.
+                    </li>
+                    <li>
+                        Implemented and troubleshot ACLs and NAT according
+                        to network requirements.
+                    </li>
+                    <li>
+                        Coordinated with ISP and third-party vendors to
+                        resolve circuit and connectivity issues.
+                    </li>
+                    <li>
+                        Maintained network documentation, device
+                        configurations, IP-address information, and
+                        troubleshooting records.
+                    </li>
+                    <li>
+                        Handled network incidents and service requests
+                        through Jira.
+                    </li>
+                    <li>
+                        Performed configuration backups and assisted with
+                        network changes, upgrades, and maintenance.
+                    </li>
+                    <li>
+                        Escalated complex network issues to senior engineers
+                        with detailed troubleshooting information.
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Key Project</h2>
+
+                <div class="job-title">
+                    Enterprise Network Monitoring &amp; Troubleshooting
+                </div>
+
+                <p>
+                    <strong>Environment:</strong>
+                    Cisco Routers, Cisco Switches, VLAN, OSPF, DHCP,
+                    DNS, VPN, Network Monitoring
+                </p>
+
+                <ul>
+                    <li>
+                        Monitored network devices and connectivity
+                        across multiple locations.
+                    </li>
+                    <li>
+                        Troubleshot intermittent connectivity, packet loss,
+                        latency, and interface-related issues.
+                    </li>
+                    <li>
+                        Assisted with VLAN creation, trunk configuration,
+                        routing changes, and device configuration.
+                    </li>
+                    <li>
+                        Coordinated with ISP teams for WAN link and
+                        circuit-related incidents.
+                    </li>
+                    <li>
+                        Maintained network documentation and
+                        configuration records.
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Education</h2>
+
+                <div class="education">
+                    <div class="job-title">
+                        Master of Business Administration (MBA)
+                    </div>
+                    <p>
+                        Sathyabama University, Chennai | 2022–2024
+                    </p>
+                </div>
+
+                <div class="education">
+                    <div class="job-title">
+                        Bachelor of Science (B.Sc.)
+                    </div>
+                    <p>
+                        Fakir Mohan University, Odisha | 2022–2024
+                    </p>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            Susant Kumar Panda | Network Engineer
+        </footer>
+
+    </div>
+
+</body>
+</html>
